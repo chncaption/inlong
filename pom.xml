@@ -158,7 +158,7 @@
         <elasticsearch7.version>7.9.2</elasticsearch7.version>
         <shiro.version>1.9.1</shiro.version>
 
-        <snappy.version>1.1.8.4</snappy.version>
+        <snappy.version>1.1.10.3</snappy.version>
         <protobuf.version>3.19.4</protobuf.version>
         <bytebuddy.version>1.12.9</bytebuddy.version>
         <reflections.version>0.10.2</reflections.version>
@@ -1698,8 +1698,7 @@
                     <excludeSubProjects>false</excludeSubProjects>
                     <numUnapprovedLicenses>0</numUnapprovedLicenses>
                     <licenses>
-                        <license
-                                implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
+                        <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
                             <notes/>
