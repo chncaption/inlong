@@ -133,7 +133,7 @@
         <okio.version>1.12.0</okio.version>
         <logging-interceptor.version>2.7.5</logging-interceptor.version>
 
-        <spring.boot.version>2.6.6</spring.boot.version>
+        <spring.boot.version>3.0.11</spring.boot.version>
         <spring.version>5.3.20</spring.version>
         <spring.autoconfigure.version>2.4.3</spring.autoconfigure.version>
         <spring.plugin.version>2.6.6</spring.plugin.version>
@@ -1698,8 +1698,7 @@
                     <excludeSubProjects>false</excludeSubProjects>
                     <numUnapprovedLicenses>0</numUnapprovedLicenses>
                     <licenses>
-                        <license
-                                implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
+                        <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
                             <notes/>
