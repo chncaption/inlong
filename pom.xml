@@ -146,7 +146,7 @@
         <debezium.version>1.8.0.Final</debezium.version>
         <rocksdb.version>6.14.6</rocksdb.version>
         <redis-replicator.version>3.6.4</redis-replicator.version>
-        <hadoop.version>2.10.2</hadoop.version>
+        <hadoop.version>3.3.4</hadoop.version>
         <postgresql.version>42.4.1</postgresql.version>
         <oracle.jdbc.version>19.3.0.0</oracle.jdbc.version>
         <mysql.jdbc.version>8.0.21</mysql.jdbc.version>
@@ -199,7 +199,7 @@
         <dom4j.version>2.1.3</dom4j.version>
 
         <zookeeper.version>3.6.3</zookeeper.version>
-        <pulsar.version>2.8.1</pulsar.version>
+        <pulsar.version>3.1.0</pulsar.version>
         <pulsar.testcontainers.version>1.15.3</pulsar.testcontainers.version>
         <kafka.version>2.4.1</kafka.version>
         <iceberg.version>0.13.2</iceberg.version>
@@ -1698,8 +1698,7 @@
                     <excludeSubProjects>false</excludeSubProjects>
                     <numUnapprovedLicenses>0</numUnapprovedLicenses>
                     <licenses>
-                        <license
-                                implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
+                        <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
                             <notes/>
