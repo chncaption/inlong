@@ -143,7 +143,7 @@
 
         <h2.version>2.1.210</h2.version>
         <h2.mysql.version>2.0.0</h2.mysql.version>
-        <debezium.version>1.8.0.Final</debezium.version>
+        <debezium.version>2.4.0.Final</debezium.version>
         <rocksdb.version>6.14.6</rocksdb.version>
         <redis-replicator.version>3.6.4</redis-replicator.version>
         <hadoop.version>2.10.2</hadoop.version>
@@ -255,7 +255,7 @@
         <esri-geometry-api.version>2.0.0</esri-geometry-api.version>
         <HikariCP.version>4.0.3</HikariCP.version>
         <caffeine.version>2.9.3</caffeine.version>
-        <kafka.clients.version>3.0.0</kafka.clients.version>
+        <kafka.clients.version>3.6.0</kafka.clients.version>
 
         <kubernetes.client.version>6.0.0</kubernetes.client.version>
     </properties>
@@ -1698,8 +1698,7 @@
                     <excludeSubProjects>false</excludeSubProjects>
                     <numUnapprovedLicenses>0</numUnapprovedLicenses>
                     <licenses>
-                        <license
-                                implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
+                        <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
                             <notes/>
