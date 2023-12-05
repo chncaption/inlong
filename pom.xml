@@ -199,7 +199,7 @@
         <dom4j.version>2.1.3</dom4j.version>
 
         <zookeeper.version>3.6.3</zookeeper.version>
-        <pulsar.version>2.8.1</pulsar.version>
+        <pulsar.version>3.1.0</pulsar.version>
         <pulsar.testcontainers.version>1.15.3</pulsar.testcontainers.version>
         <kafka.version>2.4.1</kafka.version>
         <iceberg.version>0.13.2</iceberg.version>
@@ -245,7 +245,7 @@
         <jsr.version>3.0.2</jsr.version>
         <jcommander.version>1.78</jcommander.version>
         <je.version>7.3.7</je.version>
-        <tencentcloud.cls.version>1.0.9</tencentcloud.cls.version>
+        <tencentcloud.cls.version>1.0.10</tencentcloud.cls.version>
         <tencentcloud.api.version>3.1.545</tencentcloud.api.version>
         <cos.hadoop.version>2.7.5-5.9.3</cos.hadoop.version>
         <cos.bundle.version>5.6.35</cos.bundle.version>
@@ -1698,8 +1698,7 @@
                     <excludeSubProjects>false</excludeSubProjects>
                     <numUnapprovedLicenses>0</numUnapprovedLicenses>
                     <licenses>
-                        <license
-                                implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
+                        <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
                             <notes/>
