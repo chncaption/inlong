@@ -190,7 +190,7 @@
         <hive.version>3.1.2</hive.version>
         <thrift.version>0.9.3</thrift.version>
         <flume.version>1.9.0</flume.version>
-        <hbase.version>2.4.12</hbase.version>
+        <hbase.version>2.5.8-hadoop3</hbase.version>
 
         <velocity.tools.generic.version>3.1</velocity.tools.generic.version>
         <velocity.engine.core.version>2.3</velocity.engine.core.version>
@@ -1698,8 +1698,7 @@
                     <excludeSubProjects>false</excludeSubProjects>
                     <numUnapprovedLicenses>0</numUnapprovedLicenses>
                     <licenses>
-                        <license
-                                implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
+                        <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
                             <notes/>
