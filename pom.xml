@@ -186,7 +186,7 @@
         <jackson.databind.version>2.13.2.2</jackson.databind.version>
         <fastjson.version>1.2.83</fastjson.version>
 
-        <clickhouse-jdbc.version>0.3.1</clickhouse-jdbc.version>
+        <clickhouse-jdbc.version>0.3.2</clickhouse-jdbc.version>
         <hive.version>3.1.2</hive.version>
         <thrift.version>0.9.3</thrift.version>
         <flume.version>1.9.0</flume.version>
@@ -1698,8 +1698,7 @@
                     <excludeSubProjects>false</excludeSubProjects>
                     <numUnapprovedLicenses>0</numUnapprovedLicenses>
                     <licenses>
-                        <license
-                                implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
+                        <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
                             <notes/>
