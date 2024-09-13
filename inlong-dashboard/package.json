@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.5.0",
-    "@ant-design/pro-layout": "^6.38.19",
+    "@ant-design/pro-layout": "^7.20.1",
     "ahooks": "^2.10.0",
     "antd": "^4.22.7",
     "dayjs": "^1.10.4",
