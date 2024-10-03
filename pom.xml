@@ -167,7 +167,7 @@
         <swagger.annotations.version>1.6.2</swagger.annotations.version>
         <knife4j.version>3.0.3</knife4j.version>
 
-        <commons.io.version>2.11.0</commons.io.version>
+        <commons.io.version>2.14.0</commons.io.version>
         <commons.cli.version>1.4</commons.cli.version>
         <commons.dbutils.version>1.7</commons.dbutils.version>
         <commons.codec.version>1.15</commons.codec.version>
@@ -189,7 +189,7 @@
         <clickhouse-jdbc.version>0.3.1</clickhouse-jdbc.version>
         <hive.version>3.1.2</hive.version>
         <thrift.version>0.9.3</thrift.version>
-        <flume.version>1.9.0</flume.version>
+        <flume.version>1.10.0</flume.version>
         <hbase.version>2.4.12</hbase.version>
 
         <velocity.tools.generic.version>3.1</velocity.tools.generic.version>
@@ -1698,8 +1698,7 @@
                     <excludeSubProjects>false</excludeSubProjects>
                     <numUnapprovedLicenses>0</numUnapprovedLicenses>
                     <licenses>
-                        <license
-                                implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
+                        <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
                             <notes/>
