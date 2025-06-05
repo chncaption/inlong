@@ -6,7 +6,7 @@
     "@ant-design/icons": "^4.5.0",
     "@ant-design/pro-layout": "^6.38.19",
     "ahooks": "^2.10.0",
-    "antd": "^4.22.7",
+    "antd": "^4.23.0",
     "dayjs": "^1.10.4",
     "echarts": "^5.2.2",
     "i18next": "^20.3.1",
